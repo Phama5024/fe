@@ -18,6 +18,8 @@ export const WrapperButtonMore = styled(ButtonComponent)`
     }
     width: 100%;
     text-align: center;
+    cursor: ${(props) =>props.disabled ? 'not-allowed': 'pointers'}
+    color: ${(props) =>props.disabled ? '#fff': 'transparent'}
 `
 export const WrapperProducts = styled.div`
     display: flex;

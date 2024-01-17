@@ -24,7 +24,6 @@ const NavbarComponent = () => {
             case 'star':
                 return (
                     options.map((option) => {
-                        console.log('check', option)
                         return (
                             <div style={{ display: 'flex', gap: '4px' }}>
                                 <Rate style={{ fontSize: '14px' }} disabled defaultValue={option} />
